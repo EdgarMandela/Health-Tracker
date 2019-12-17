@@ -1,56 +1,26 @@
-# _Pizza Order Website_
-
-#### _This website allows customer to pizza of dirrent sizes,crust and toppings._
-
-#### By _**Edgar Mandela**_
-
-## Description
-
-_This website allow the user to order as many pizza pies as they wish with a variety of topping  and crust options. Prices for each pizza pie are summed up and displayed to user._
-
-## Setup/Installation Requirements
-
-* _The page can be viewed  page through a browser._
+# Name: Health Tacker
 
 
-## Known Bugs
+## Technologies Used: HTML/CSS/JavaScript/jQuery
 
-_There are no known bugs
+## Purpose:
 
+Users can add information about health issues and get possible health conditions
 
-## Support and contact details
+## Motivation:
 
-_contact me via email address:mandela0edgar@gmail.com
+As a new parent, I am often bombarded with some sort of health issue or another. With the addition of managing a busy schedule, it is often hard to visit a doctor right away, so the idea for creating a symptom checker that allows for a quick diagnosis came about. It is helpful to get a sense of what condition I might have in a quick and timely manner before discussing my symptoms with my primary doctor.
 
-## Technologies Used
+## Document Flow
 
-_HTML, CSS, Bootstrap, JavaScript, jQuery_
+1) User presses “enter” on landing page to enter main page content
+2) User enters personal information on form (age and sex)
+3) User enters their symptoms
+4) API diagnoses symptom and prompts user their main sympton
+5) After clicking “Start Diagnosis Questions” users get prompted questions to better diagnose symptoms
+6) After a series on questions and answers users get condition diagnosis
 
-##GitHub Pages Link
-https://edgarmandela.github.io/Pizza-website/
+## API Refrence
 
-
-
-### License
-
-The MIT License (MIT)
-
-Copyright (c) [2019] [Edgar Mandela]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+The data used for this app is powered by Infermedica: Artificial Intelligence for Healthcare Companies.
+More information about this API can be found [Here] (http://www.infermedica.com/).
